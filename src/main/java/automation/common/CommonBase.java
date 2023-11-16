@@ -28,7 +28,7 @@ import static automation.common.TestLogger.*;
 public class CommonBase {
 
 	public WebDriver driver;
-    public int initWaitTime = 10;
+    public int initWaitTime = 3000;
     public WebDriver initChromeDriver(String URL)
     {
         ChromeOptions options = new ChromeOptions();
@@ -37,11 +37,12 @@ public class CommonBase {
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
         driver.get(URL);
-        driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(4000, TimeUnit.SECONDS);
         return driver;
     }
 
-    public void inputTextJavaScriptInnerHTML(By inputElement, String companyName) {
+    public void inputTextJavaScriptInnerHTML(By inputElement, String companyName) 
+    {
         WebElement element = driver.findElement(inputElement);
         try {
             ((JavascriptExecutor) driver).executeScript("arguments[0].innerHTML = '" + companyName + "'", element);
@@ -120,7 +121,7 @@ String curDir = System.getProperty("user.dir");
         if (dr.toString().contains("null")) {
             System.out.print("All Browser windows are closed ");
         } else {
-            dr.manage().timeouts().implicitlyWait(0,TimeUnit.SECONDS);
+            dr.manage().timeouts().implicitlyWait(10000,TimeUnit.SECONDS);
             dr.manage().deleteAllCookies();
             dr.close();
         }

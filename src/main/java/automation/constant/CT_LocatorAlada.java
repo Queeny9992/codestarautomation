@@ -2,7 +2,8 @@ package automation.constant;
 import org.openqa.selenium.By;
 
 
-public class CT_LocatorAlada {
+public class CT_LocatorAlada
+{
 
 	    public static By Dangnhap = By.xpath("//a[text()='Đăng Nhập']");
 	    public static By LoginEmail = By.xpath("//input[@id='txtLoginUsername']");
@@ -17,6 +18,7 @@ public class CT_LocatorAlada {
 	    public static By Thongtinkhoahoc = By.xpath("//a[contains(text(),'Thông tin khóa học')]");
 	    public static String webAladaURL = "https://alada.vn/";
 
+	    public static String webPupupURL = "https://demo.guru99.com//popup.php";
 
 	}
 

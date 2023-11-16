@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automation.testsuite.Day16_HomeWork">
+      <class name="HomeWork.Day17_Homework_Excersie2">
         <methods>
-          <include name="AlertAlada"/>
-          <include name="CloseChrome"/>
-          <include name="OpenChrome"/>
+          <include name="openChrome"/>
+          <include name="handleFrame"/>
         </methods>
-      </class> <!-- automation.testsuite.Day16_HomeWork -->
+      </class> <!-- HomeWork.Day17_Homework_Excersie2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
