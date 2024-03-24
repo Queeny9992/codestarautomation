@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite All]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Regression Test with firefox(failed)">
+    <parameter name="browserTest" value="firefox"/>
+    <classes>
+      <class name="automation.testsuite.Day12_MultiCheckbox1">
+        <methods>
+          <include name="openChrome"/>
+          <include name="handleRadioButton"/>
+        </methods>
+      </class> <!-- automation.testsuite.Day12_MultiCheckbox1 -->
+    </classes>
+  </test> <!-- Regression Test with firefox(failed) -->
+</suite> <!-- Failed suite [Suite All] -->

@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="HomeWork.Day17_Homework_Excersie2">
+      <class name="Project.AddEditDeleteEvent">
         <methods>
-          <include name="openChrome"/>
-          <include name="handleFrame"/>
+          <include name="EditEvent"/>
+          <include name="openChromeDriver"/>
         </methods>
-      </class> <!-- HomeWork.Day17_Homework_Excersie2 -->
+      </class> <!-- Project.AddEditDeleteEvent -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

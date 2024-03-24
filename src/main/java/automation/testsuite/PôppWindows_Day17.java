@@ -4,6 +4,8 @@ import java.sql.Driver;
 import static org.testng.Assert.*;
 import org.openqa.selenium.By;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import automation.common.CommonBase;
@@ -12,9 +14,11 @@ import automation.constant.Day16_Acc;
 
 public class PôppWindows_Day17 extends CommonBase{
 @BeforeMethod
-public void openChrome()
+@Parameters("browserTest")
+public void openBrower(@Optional("firefox") String browserName)
 {
-	driver = initChromeDriver(Day16_Acc.WEB_POPUP);
+setupDriver(browserName);
+driver.get(Day16_Acc.WEB_POPUP);
 }
 @Test
 public void VerifyNewtab()

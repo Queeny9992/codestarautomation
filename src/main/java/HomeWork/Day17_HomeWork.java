@@ -1,7 +1,7 @@
 package HomeWork;
 
 import java.util.Set;
-import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.*;
 
 import org.openqa.selenium.By;
 import org.testng.annotations.BeforeMethod;
@@ -47,7 +47,7 @@ public class Day17_HomeWork extends CommonBase{
 	@Test
 	public void handleFrame()
 	{	
-		scrollToElement(By.xpath("//p[text()='Quick Links']"));
+		pause(30000);
 		driver.switchTo().frame(5);
 		click(By.xpath("//span[text()='Bắt đầu chat']"));
 		pause(10000);
@@ -57,12 +57,10 @@ public class Day17_HomeWork extends CommonBase{
 		System.out.println("Main windown hien tai la :" + mainWindown);
 		//lay ra tat ca cac tab windown dang open bang ham getWindownHandle
 		//set la 1  để lưu các phần tử giá trị KHÔNG trùng lặp
-		pause(20000);
 		Set<String> windowns = driver.getWindowHandles();
 		//Cách duyệt từng tử không trùng lặp trong Collection (Set) ta dùng for each
 		for(String windown : windowns) {
 			System.out.println(windown);
-			pause(20000);
 			// so sánh nếu window nào khác  chính (đầu tiên) thì chuyển qua để thao tác 
 			if(!mainWindown.equals(windown)) {
 				driver.switchTo().window(windown);
@@ -71,7 +69,8 @@ public class Day17_HomeWork extends CommonBase{
 				type(By.xpath("//input[@type='password']"),"hihi@1234");
 				pause(2000);
 				click(By.xpath("//div[text()='Use Messenger']/parent::button"));
-				pause(20000);
+				// trong truong hop ko loi, ko duoc dung if else
+				assertTrue(driver.findElement(By.xpath("//")).isDisplayed());
 				System.out.println("Đã chuyển đến lớp windown con");
 				//Mot so ham ho tro
 				System.out.println("Windown's Title: " +driver.switchTo().window(windown).getTitle());		
