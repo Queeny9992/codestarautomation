@@ -1,57 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="0" failed="0" skipped="1">
+<testng-results ignored="0" total="3" passed="0" failed="0" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-30T22:05:34 PST" name="Default suite" finished-at="2023-11-30T22:06:27 PST" duration-ms="53332">
+  <suite started-at="2024-03-30T14:42:28 PST" name="Default suite" finished-at="2024-03-30T14:42:35 PST" duration-ms="7524">
     <groups>
     </groups>
-    <test started-at="2023-11-30T22:05:34 PST" name="Default test" finished-at="2023-11-30T22:06:27 PST" duration-ms="53332">
+    <test started-at="2024-03-30T14:42:28 PST" name="Default test" finished-at="2024-03-30T14:42:35 PST" duration-ms="7524">
       <class name="Project.AddEditDeleteEvent">
-        <test-method is-config="true" signature="openChromeDriver()[pri:0, instance:Project.AddEditDeleteEvent@48bb62]" started-at="2023-11-30T22:05:34 PST" name="openChromeDriver" finished-at="2023-11-30T22:06:27 PST" duration-ms="53038" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
+        <test-method is-config="true" signature="openChromeDriver()[pri:0, instance:Project.AddEditDeleteEvent@35e2d654]" started-at="2024-03-30T14:42:28 PST" name="openChromeDriver" finished-at="2024-03-30T14:42:35 PST" duration-ms="7286" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[timeout: Timed out receiving message from renderer: 40.000
-  (Session info: chrome=119.0.6045.199)
+              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 119
+Current browser version is 123.0.6312.87 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
   (Driver info: chromedriver=119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}),platform=Mac OS X 12.1.0 arm64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 40.42 seconds
+Command duration or timeout: 6.88 seconds
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'MacBook-Air-cua-ADMIN-2.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '17.0.8.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:63542}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, fedcm:accounts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}), userDataDir=/var/folders/7h/3mrrlhl91pd7m6m5n2qcv_jm0000gn/T/.org.chromium.Chromium.KxTrSU}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=119.0.6045.199, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webauthn:extension:minPinLength=true, webauthn:extension:prf=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: 27d81679206d4c83bd5d84dbd49c1b80]]>
+System info: host: 'MacBook-Air-cua-ADMIN-2.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.1', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 40.000
-  (Session info: chrome=119.0.6045.199)
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 119
+Current browser version is 123.0.6312.87 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
   (Driver info: chromedriver=119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}),platform=Mac OS X 12.1.0 arm64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 40.42 seconds
+Command duration or timeout: 6.88 seconds
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'MacBook-Air-cua-ADMIN-2.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '17.0.8.1'
+System info: host: 'MacBook-Air-cua-ADMIN-2.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.1', java.version: '20.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:63542}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, fedcm:accounts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}), userDataDir=/var/folders/7h/3mrrlhl91pd7m6m5n2qcv_jm0000gn/T/.org.chromium.Chromium.KxTrSU}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=119.0.6045.199, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webauthn:extension:minPinLength=true, webauthn:extension:prf=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: 27d81679206d4c83bd5d84dbd49c1b80
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
 at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
 at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy10.click(Unknown Source)
-at automation.pageLocator.Project_Login.EventsPage(Project_Login.java:78)
-at Project.AddEditDeleteEvent.openChromeDriver(AddEditDeleteEvent.java:21)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:170)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:159)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:148)
+at automation.common.CommonBase.initChromeDriver(CommonBase.java:39)
+at Project.AddEditDeleteEvent.openChromeDriver(AddEditDeleteEvent.java:17)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
 at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
@@ -82,55 +72,45 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openChromeDriver -->
-        <test-method signature="EditEvent()[pri:2, instance:Project.AddEditDeleteEvent@48bb62]" started-at="2023-11-30T22:06:27 PST" name="EditEvent" finished-at="2023-11-30T22:06:27 PST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.TimeoutException">
+        <test-method signature="addNewEvent()[pri:1, instance:Project.AddEditDeleteEvent@35e2d654]" started-at="2024-03-30T14:42:35 PST" name="addNewEvent" finished-at="2024-03-30T14:42:35 PST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[timeout: Timed out receiving message from renderer: 40.000
-  (Session info: chrome=119.0.6045.199)
+              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 119
+Current browser version is 123.0.6312.87 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
   (Driver info: chromedriver=119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}),platform=Mac OS X 12.1.0 arm64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 40.42 seconds
+Command duration or timeout: 6.88 seconds
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'MacBook-Air-cua-ADMIN-2.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '17.0.8.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:63542}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, fedcm:accounts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}), userDataDir=/var/folders/7h/3mrrlhl91pd7m6m5n2qcv_jm0000gn/T/.org.chromium.Chromium.KxTrSU}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=119.0.6045.199, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webauthn:extension:minPinLength=true, webauthn:extension:prf=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: 27d81679206d4c83bd5d84dbd49c1b80]]>
+System info: host: 'MacBook-Air-cua-ADMIN-2.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.1', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 40.000
-  (Session info: chrome=119.0.6045.199)
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 119
+Current browser version is 123.0.6312.87 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
   (Driver info: chromedriver=119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}),platform=Mac OS X 12.1.0 arm64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 40.42 seconds
+Command duration or timeout: 6.88 seconds
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'MacBook-Air-cua-ADMIN-2.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.1', java.version: '17.0.8.1'
+System info: host: 'MacBook-Air-cua-ADMIN-2.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.1', java.version: '20.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:63542}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, fedcm:accounts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}), userDataDir=/var/folders/7h/3mrrlhl91pd7m6m5n2qcv_jm0000gn/T/.org.chromium.Chromium.KxTrSU}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=119.0.6045.199, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webauthn:extension:minPinLength=true, webauthn:extension:prf=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: 27d81679206d4c83bd5d84dbd49c1b80
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
 at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
 at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy10.click(Unknown Source)
-at automation.pageLocator.Project_Login.EventsPage(Project_Login.java:78)
-at Project.AddEditDeleteEvent.openChromeDriver(AddEditDeleteEvent.java:21)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:170)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:159)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:148)
+at automation.common.CommonBase.initChromeDriver(CommonBase.java:39)
+at Project.AddEditDeleteEvent.openChromeDriver(AddEditDeleteEvent.java:17)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
 at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
@@ -161,10 +141,156 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewEvent -->
+        <test-method is-config="true" signature="openChromeDriver()[pri:0, instance:Project.AddEditDeleteEvent@35e2d654]" started-at="2024-03-30T14:42:35 PST" name="openChromeDriver" finished-at="1970-01-01T08:00:00 PST" duration-ms="-1711780955617" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openChromeDriver -->
+        <test-method signature="EditEvent()[pri:2, instance:Project.AddEditDeleteEvent@35e2d654]" started-at="2024-03-30T14:42:35 PST" name="EditEvent" finished-at="2024-03-30T14:42:35 PST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 119
+Current browser version is 123.0.6312.87 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+  (Driver info: chromedriver=119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}),platform=Mac OS X 12.1.0 arm64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6.88 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MacBook-Air-cua-ADMIN-2.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.1', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 119
+Current browser version is 123.0.6312.87 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+  (Driver info: chromedriver=119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}),platform=Mac OS X 12.1.0 arm64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6.88 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MacBook-Air-cua-ADMIN-2.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.1', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:170)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:159)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:148)
+at automation.common.CommonBase.initChromeDriver(CommonBase.java:39)
+at Project.AddEditDeleteEvent.openChromeDriver(AddEditDeleteEvent.java:17)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditEvent -->
+        <test-method is-config="true" signature="openChromeDriver()[pri:0, instance:Project.AddEditDeleteEvent@35e2d654]" started-at="2024-03-30T14:42:35 PST" name="openChromeDriver" finished-at="1970-01-01T08:00:00 PST" duration-ms="-1711780955622" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openChromeDriver -->
+        <test-method signature="DeleteEventHahaha()[pri:3, instance:Project.AddEditDeleteEvent@35e2d654]" started-at="2024-03-30T14:42:35 PST" name="DeleteEventHahaha" finished-at="2024-03-30T14:42:35 PST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 119
+Current browser version is 123.0.6312.87 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+  (Driver info: chromedriver=119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}),platform=Mac OS X 12.1.0 arm64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6.88 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MacBook-Air-cua-ADMIN-2.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.1', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 119
+Current browser version is 123.0.6312.87 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+  (Driver info: chromedriver=119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103}),platform=Mac OS X 12.1.0 arm64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6.88 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MacBook-Air-cua-ADMIN-2.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.1', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:170)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:159)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:148)
+at automation.common.CommonBase.initChromeDriver(CommonBase.java:39)
+at Project.AddEditDeleteEvent.openChromeDriver(AddEditDeleteEvent.java:17)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteEventHahaha -->
       </class> <!-- Project.AddEditDeleteEvent -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

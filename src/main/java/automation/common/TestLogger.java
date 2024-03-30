@@ -1,8 +1,8 @@
 package automation.common;
 
 	import org.apache.log4j.Logger;
+
 	import org.apache.log4j.Level;
-	
 	public class TestLogger {
 		static final Logger logger = Logger.getLogger(TestLogger.class);
 		public static void log(String message, Level level) {

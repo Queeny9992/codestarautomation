@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-23T21:45:30 GMT+07:00" name="Suite All" finished-at="2023-07-23T21:45:38 GMT+07:00" duration-ms="8467">
+    <groups>
+    </groups>
+    <test started-at="2023-07-23T21:45:30 GMT+07:00" name="Regression Test All class on firefox" finished-at="2023-07-23T21:45:35 GMT+07:00" duration-ms="4966">
+      <class name="hoantest.Day12_Checkbox_Radio_Dropdown">
+        <test-method is-config="true" signature="initDriver(java.lang.String)[pri:0, instance:hoantest.Day12_Checkbox_Radio_Dropdown@23c30a20]" started-at="2023-07-23T21:45:30 GMT+07:00" name="initDriver" finished-at="2023-07-23T21:45:34 GMT+07:00" duration-ms="4436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="isRadioButtonSelected()[pri:0, instance:hoantest.Day12_Checkbox_Radio_Dropdown@23c30a20]" started-at="2023-07-23T21:45:34 GMT+07:00" name="isRadioButtonSelected" finished-at="2023-07-23T21:45:35 GMT+07:00" duration-ms="490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isRadioButtonSelected -->
+        <test-method is-config="true" signature="closeBrowserTest()[pri:0, instance:hoantest.Day12_Checkbox_Radio_Dropdown@23c30a20]" started-at="2023-07-23T21:45:35 GMT+07:00" name="closeBrowserTest" finished-at="2023-07-23T21:45:35 GMT+07:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserTest -->
+      </class> <!-- hoantest.Day12_Checkbox_Radio_Dropdown -->
+    </test> <!-- Regression Test All class on firefox -->
+    <test started-at="2023-07-23T21:45:35 GMT+07:00" name="Regression Test All class on edge" finished-at="2023-07-23T21:45:38 GMT+07:00" duration-ms="3448">
+      <class name="hoantest.Day12_Checkbox_Radio_Dropdown">
+        <test-method is-config="true" signature="initDriver(java.lang.String)[pri:0, instance:hoantest.Day12_Checkbox_Radio_Dropdown@537f60bf]" started-at="2023-07-23T21:45:35 GMT+07:00" name="initDriver" finished-at="2023-07-23T21:45:38 GMT+07:00" duration-ms="3330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="isRadioButtonSelected()[pri:0, instance:hoantest.Day12_Checkbox_Radio_Dropdown@537f60bf]" started-at="2023-07-23T21:45:38 GMT+07:00" name="isRadioButtonSelected" finished-at="2023-07-23T21:45:38 GMT+07:00" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isRadioButtonSelected -->
+        <test-method is-config="true" signature="closeBrowserTest()[pri:0, instance:hoantest.Day12_Checkbox_Radio_Dropdown@537f60bf]" started-at="2023-07-23T21:45:38 GMT+07:00" name="closeBrowserTest" finished-at="2023-07-23T21:45:38 GMT+07:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserTest -->
+      </class> <!-- hoantest.Day12_Checkbox_Radio_Dropdown -->
+    </test> <!-- Regression Test All class on edge -->
+  </suite> <!-- Suite All -->
+</testng-results>

@@ -6,6 +6,8 @@
       <class name="Project.AddEditDeleteEvent">
         <methods>
           <include name="EditEvent"/>
+          <include name="addNewEvent"/>
+          <include name="DeleteEventHahaha"/>
           <include name="openChromeDriver"/>
         </methods>
       </class> <!-- Project.AddEditDeleteEvent -->

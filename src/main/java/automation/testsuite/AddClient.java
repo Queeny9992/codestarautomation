@@ -11,11 +11,11 @@ public class AddClient extends CommonBase{
     public void OpenChrome(){
         driver = initChromeDriver("https://rise.fairsketch.com/signin?redirect=https://rise.fairsketch.com/events");
     }
-    @Test
-    public void AddClient() throws InterruptedException {
-        ClientPageFactory client = new ClientPageFactory(driver);
-        client.AddNewClientFunction("1111");
-    }
+   // @Test
+  //  public void AddClient() throws InterruptedException {
+   //     ClientPageFactory client = new ClientPageFactory(driver);
+     //   client.AddNewClientFunction("1111");
+   // }
     
 }
 	

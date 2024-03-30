@@ -49,7 +49,9 @@ import automation.pageLocator.Project_Login;
 		@Test(priority = 3)
 		
 		public void DeleteEventHahaha()
+		
 		{
+			
 			Project_Login DeleteHahaha = new Project_Login(driver);
 			DeleteHahaha.DeleteEvent();
 		}
